@@ -72,9 +72,23 @@ li{
     display: flex;
     color: white;
     position: relative;
+    margin:  5% 10%;
 }
 .btn{
     display: flex;
+}
+.fbannerleft h1{
+    font-size: 70px;
+    width: 40%;
+    margin-top: 35px;
+    
+}
+.fbannerright{
+    width: 40%;
+}
+.fbannerright img{
+    width: 100%;
+    padding-top: 50px;
 }
 /* firstcar */
 .secondbanner{
