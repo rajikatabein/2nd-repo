@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.interfont {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+/* firstcar */
+.secondbanner{
+    text-align: center;
+    color: white;
+    margin: 30px;
+  
+}
+.secondbanner h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.secondbanner p{
+    font-size:15px ;
+    font-weight: 400;
+
+
+}
+.firstcard{
+    display: flex;
+   margin-left: 110px;
+   margin-right: 110px;
+   
+    margin-bottom: 110px;
+}
+.roundcard{
+    color: white;
+    text-align: center;
+    
+}
+.roundcard img{
+    
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+.roundcard h3{
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.roundcard p{
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* firstcard responsive */
+@media screen and (max-width:576px) {
+   .firstcard{
+    display: flex;
+    flex-direction: column;
+   }
+}
+
+/* Thirdbanner */
+.thirdbanner{
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 110px;
+    /* gap: 100px; */
+    border-radius: 18px;
+    margin-bottom: 20px;
+    
+    
+   
+}
+.thright{
+    color:
+    text-align: left;
+    
+    padding: 50px;
+
+}
+.thead{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.thright p{
+    font-size:15px ;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 0.5);
+
+}
+.tbutton{
+    border-radius: 38px;
+    padding: 15px 40px ;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    margin-top: 48px;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.thleft{
+    width: 40%;
+    margin: 0;
+    padding: 29px;
+}
+.thleft img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+/* thirdbanner responsive */
+
+@media screen and (max-width:576px) {
+    
+    
+    .thirdbanner{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+      margin: 20px;
+      position: relative;
+    }
+    .thright{
+        margin-bottom: 0;
+    }
+    .tbutton{
+        padding: 10Spx 80px;
+        font-size: ;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .thleft{
+        width: 96%;
+        /* margin:  20px; */
+        margin-top: 0;
+    }
+    thleft img{
+        margin: 0px;
+    }
+/* 
+footer css */
+
+
+.footer{
+     
+    /* background-color: rgb(34, 34, 34); */
+    color: white;
+}
+
+.footmain{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border: 2px solid red;
+}
